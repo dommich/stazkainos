@@ -55,6 +55,9 @@ namespace stazkainos
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "compare",
+                    template: "{controller=Compare}/{id?}");
             });
         }
 
